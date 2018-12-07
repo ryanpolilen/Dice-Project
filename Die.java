@@ -17,7 +17,7 @@ public class Die{
 	public int getSides(int sides){
 		return sides;
 	}
-	public void roll(int sides){
+	public void roll(){
 		value = (int)(Math.random()*(sides))+1;
 	}
 	public String toString(){
