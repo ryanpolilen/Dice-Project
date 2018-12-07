@@ -10,18 +10,15 @@ public class Die{
 		this.sides = sides;
 		this.value = (int)(Math.random()*(sides))+1;
 	}
-	public int getValue(int value){
+	public int getValue(){
 		return value;
 	}
 
-	public int getSides(int sides){
-		return sides;
-	}
-	public void roll(int sides){
+	public void roll(){
 		value = (int)(Math.random()*(sides))+1;
 	}
 	public String toString(){
-		return "Number of sides: "+sides+", Value: "+value;
+		return "Number of sides: "+sides+", Value: "+value+"\n";
 	}
 
 
