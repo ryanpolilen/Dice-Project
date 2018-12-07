@@ -22,6 +22,7 @@ public void shake(){
 	for(int x = 0; x < holder.size(); x++){
 		holder.get(x).roll();
 
+
 	}
 }
 
